@@ -16,6 +16,7 @@ def join_ingredients(src)
     output << pizza_string
     row_index += 1
   end
+  return output
 end
 
 def find_greater_pair(src)
