@@ -9,20 +9,33 @@ def join_ingredients(src)
   
   row_index = 0
   output =[]
+  
   while row_index < src.count do
-    element_0 = 0
-    element_1 = 1
-    pizza_string = "I love #{src[row_index][element_0]} and #{src[row_index][element_1]} on my pizza"
+    pizza_string = "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     output << pizza_string
     row_index += 1
   end
+  
   return output
+  
 end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
+  
+  row_index = 0
+  output = []
+  
+  while row_index < src.count do
+    sorted_array = src[row_index].sort
+    big_num = sorted_array[-1]
+    output << big_num
+  end
+  
+  return output
+  
 end
 
 def total_even_pairs(src)
