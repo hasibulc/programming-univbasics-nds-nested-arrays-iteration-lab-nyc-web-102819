@@ -36,8 +36,9 @@ def find_greater_pair(src)
     else
       output << second_num
     end
-    
-    return output
+  end
+  
+  return output
       
   end
   
