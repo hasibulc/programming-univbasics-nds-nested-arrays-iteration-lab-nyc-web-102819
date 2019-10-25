@@ -57,8 +57,12 @@ def total_even_pairs(src)
     first_num = (src[row_index][0]) % 2
     second_num = (src[row_index][1]) % 2
     
-    if (first_num == 0) 
-    
-    
+    if (first_num == 0) && (second_num == 0)
+      output << first_num
+      output << second_num
+    end
+  end
   
+  return output
+    
 end
