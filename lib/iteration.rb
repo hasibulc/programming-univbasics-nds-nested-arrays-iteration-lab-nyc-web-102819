@@ -37,11 +37,7 @@ def find_greater_pair(src)
     else
       output << second_num
     end
-    
-  end
-  
   return output
-  
 end
 
 def total_even_pairs(src)
