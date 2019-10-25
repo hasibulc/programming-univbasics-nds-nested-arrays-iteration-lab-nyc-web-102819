@@ -31,11 +31,13 @@ def find_greater_pair(src)
   while row_index < src.count do
     first_num = src[row_index][0]
     second_num = src[row_index][1]
+    
     if first_num > second_num
       output << first_num
     else
       output << second_num
     end
+    
   end
   
   return output
