@@ -8,8 +8,12 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   row_index = 0
+  pizza_string =[]
   while row_index < src.count do
-    inner_array = 0
+    inner_element = 0
+    
+    
+    
     
   
 end
