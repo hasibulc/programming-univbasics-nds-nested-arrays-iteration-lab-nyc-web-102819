@@ -29,7 +29,7 @@ def find_greater_pair(src)
   output = []
   
   while row_index < src.count do
-    first_num = rc[row_index][0]
+    first_num = src[row_index][0]
     second_num = src[row_index][1]
     if first_num > second_num
       output << first_num
