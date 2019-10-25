@@ -39,10 +39,6 @@ def find_greater_pair(src)
   end
   
   return output
-      
-  end
-  
-  return output
   
 end
 
